@@ -7,6 +7,8 @@ on:
     branches:
       - main
   pull_request:
+  # pr-pull pushes with GITHUB_TOKEN, which doesn't start workflows, so this reruns checks on main by hand.
+  workflow_dispatch:
 
 permissions: {}
 
