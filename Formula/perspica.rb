@@ -1,5 +1,5 @@
 class Perspica < Formula
-  desc "Review code changes by what they do, not line by line"
+  desc "Review code changes by what they do, and learn the concepts behind them"
   homepage "https://github.com/sshah03/perspica"
   version "0.2.0"
   license "MIT"
