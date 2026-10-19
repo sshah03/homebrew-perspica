@@ -3,31 +3,25 @@ class Perspica < Formula
   homepage "https://github.com/sshah03/perspica"
   license "MIT"
 
-  bottle do
-    root_url "https://github.com/sshah03/homebrew-perspica/releases/download/perspica-0.2.1"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "0263d0f295f7d710d296ed80a1915218a6993088111def4eef577dfd1c1b0e2e"
-    sha256 cellar: :any_skip_relocation, sequoia:       "d799ea6d1ded6815701bc52319cf65799a502dafcca186d59f8f59d780c74cac"
-  end
-
   on_macos do
     on_arm do
-      url "https://github.com/sshah03/perspica/releases/download/v0.2.1/perspica-aarch64-apple-darwin.tar.gz"
-      sha256 "856fa2600bef378e5bbf13960b2b18a3b5adb6047c8e6970695d9a18100c329a"
+      url "https://github.com/sshah03/perspica/releases/download/v0.3.0/perspica-aarch64-apple-darwin.tar.gz"
+      sha256 "4d2a708a90844f2f70e29e7ed39b53206bae87ba72e724f43709440645beb988"
     end
     on_intel do
-      url "https://github.com/sshah03/perspica/releases/download/v0.2.1/perspica-x86_64-apple-darwin.tar.gz"
-      sha256 "3100596dba785add709c2c1174b9ca4c90148ea9181be0daaaff24d24866d5df"
+      url "https://github.com/sshah03/perspica/releases/download/v0.3.0/perspica-x86_64-apple-darwin.tar.gz"
+      sha256 "6e628eb403b8e4bdbc0a3fe15640259fc482eae27452ad5239bc8b7764246b5d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/sshah03/perspica/releases/download/v0.2.1/perspica-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "8917fcadfa15be8072c2bddf1a5f549253ac0bd4b368651c065278675bd5cbed"
+      url "https://github.com/sshah03/perspica/releases/download/v0.3.0/perspica-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "0669452b5db434be8e79b3ce1c70b754ebed396834c84986fec07ad898bd90fe"
     end
     on_intel do
-      url "https://github.com/sshah03/perspica/releases/download/v0.2.1/perspica-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "061e5e638c015f0f47afe7561feeb15247b693e67deb867106c7f1cb2a332f9f"
+      url "https://github.com/sshah03/perspica/releases/download/v0.3.0/perspica-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c39bc7091b82063828d97acc7ccc6147bcb0f5f835d6c030db900c1cfd5aef19"
     end
   end
 
