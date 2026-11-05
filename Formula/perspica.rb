@@ -3,6 +3,14 @@ class Perspica < Formula
   homepage "https://github.com/sshah03/perspica"
   license "MIT"
 
+  bottle do
+    root_url "https://github.com/sshah03/homebrew-perspica/releases/download/perspica-0.4.1"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "d0c06005e1c94d6529c8a56e8bc4d6d0243e059177b2c53b7cff5885887b8127"
+    sha256 cellar: :any_skip_relocation, sequoia:       "1432c7eaeb146970bc31a8d395f1ca904634f02bad2c998aaccddb518237d1b1"
+    sha256 cellar: :any_skip_relocation, arm64_linux:   "135232ed6a2ffb394753df1999a3cb24815119e33b52654a9a05dd9606d1dc70"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "f285690a1cc01060b7deb4c8072075f6f6d4840331e85d44cdd5122480b0503c"
+  end
+
   on_macos do
     on_arm do
       url "https://github.com/sshah03/perspica/releases/download/v0.4.1/perspica-aarch64-apple-darwin.tar.gz"
