@@ -3,33 +3,25 @@ class Perspica < Formula
   homepage "https://github.com/sshah03/perspica"
   license "MIT"
 
-  bottle do
-    root_url "https://github.com/sshah03/homebrew-perspica/releases/download/perspica-0.4.2"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "79a2667274920418da8f177f4672a30221b3b89f02b2f6d8721687944d43cb13"
-    sha256 cellar: :any_skip_relocation, sequoia:       "08db0846edc786d75830e54ac6c33be1f593bc0149ebac993dbc04a400b38b47"
-    sha256 cellar: :any_skip_relocation, arm64_linux:   "0b7cee3b78cd346160cd82dc67f1a667ca5273ed399dbb4c57acf320f98ce0f5"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:  "f9fef5b398f0d015ea1026b40f3b6b74c75b34002f209811c6c05b5dc9587541"
-  end
-
   on_macos do
     on_arm do
-      url "https://github.com/sshah03/perspica/releases/download/v0.4.2/perspica-aarch64-apple-darwin.tar.gz"
-      sha256 "ee3d19cda74b8dd9f6a041e71b8d9146b09e2c5ce76b0ebfdcfea3a968ce6bf7"
+      url "https://github.com/sshah03/perspica/releases/download/v0.5.0/perspica-aarch64-apple-darwin.tar.gz"
+      sha256 "79958cd447eff59298084a3709ad7b8dc9f7e924c2f0680b69f9816ecdb8c379"
     end
     on_intel do
-      url "https://github.com/sshah03/perspica/releases/download/v0.4.2/perspica-x86_64-apple-darwin.tar.gz"
-      sha256 "dfcedd7ad21ea784734a2b3bd3055170bbefdc504540fb078f438c0cba06f653"
+      url "https://github.com/sshah03/perspica/releases/download/v0.5.0/perspica-x86_64-apple-darwin.tar.gz"
+      sha256 "f1b6999ed5384b1ace21edace2d6a37f23868b2242141827c68d9c02620b201c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/sshah03/perspica/releases/download/v0.4.2/perspica-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "996137ec18e6fbeda1b847ca1f0115737a7bac715b6e42dcacbf174cecb8d46c"
+      url "https://github.com/sshah03/perspica/releases/download/v0.5.0/perspica-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "0180528612f30496c7bb25b0f83dd8788a664968cf6cbc6fd40730906d719aa8"
     end
     on_intel do
-      url "https://github.com/sshah03/perspica/releases/download/v0.4.2/perspica-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e8480ff2588972bf2392bab344338cb719113ae752c74acb3fa6d1f704eaa5ff"
+      url "https://github.com/sshah03/perspica/releases/download/v0.5.0/perspica-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "0750b554878d3a86bf1655a6515b7cb3a2e678c0b4147b57f3d1a420ded07973"
     end
   end
 
